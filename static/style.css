@@ -1,0 +1,154 @@
+#shreck_img /* The man himself */
+{
+   position:absolute;
+   top:50%;
+   left:10%;
+}
+
+
+#kandalf_img /* A computer wizard */
+{
+   position:absolute;
+   top:47%;
+   left:70%;
+}
+#china /* Our beautiful music */
+{
+   position:absolute;
+   top:95%;
+   left:0%;
+}
+
+#china_desc
+{
+   position:absolute;
+   top:95%;
+   left:0%;
+}
+
+#sus
+{
+   position:absolute;
+   top:97%;
+   left:97%;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.container{
+  text-algin: center;
+  margin-top:60px;
+  position:absolute;
+  top:2%;
+  left:70%;
+}
+.btn{
+  border: 2px solid #389428;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "Arial Black";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.btn1{
+  color:#389428;
+}
+.btn1:hover{
+  color:#fff;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background:#389428;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn::before{
+  top: 0;
+  border-radius: 0 0 50% 50%
+}
+.btn1:hover:before{
+  height: 180%;
+}
+
+
+.container2{
+  position:absolute;
+   top:2%;
+   left:12%;
+  text-algin: center;
+  margin-top:60px;
+}
+.btn{
+  border: 2px solid #389428;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "Arial Black";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.btn2{
+  color:#389428;
+}
+.btn2:hover{
+  color:#fff;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background:#389428;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn::before{
+  top: 0;
+  border-radius: 0 0 50% 50%
+}
+.btn2:hover:before{
+  height: 180%;
+}
+
+
+.text{
+  color: lightgray
+}
+
+.text2{
+  color: #fff
+  
+}
+
+
+.linia{
+  
+  position: absolute;
+
+  width: 100%;
+  height:40px;
+  background-color: green;
+
+
+}
+.shrekus{
+  font-family: "Arial Black";
+  color:#fff;
+  font-size:50px;
+  
+}

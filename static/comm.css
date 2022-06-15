@@ -1,0 +1,40 @@
+#china /* Our beautiful music */
+{
+   position:absolute;
+   top:95%;
+   left:0%;
+}
+
+
+.linia{
+  
+  position: absolute;
+
+  width: 100%;
+  height:40px;
+  background-color: green;
+}
+
+.shrekus{
+  font-family: "Arial Black";
+  color:#fff;
+  font-size:50px;
+  
+}
+
+.hbot{
+  color:lightgrey;
+  font-size:30px;
+  font-family: "Arial Black";
+  margin-top: 50px;
+
+
+}
+
+.komendyh {
+  color:#fff;
+  background-color: black;
+}
+.dtext {
+  color:#fff;
+}
