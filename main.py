@@ -13,9 +13,6 @@ template_folder="templates", static_folder="static")
 def website():
     return bp
 
-app.config['SERVER_NAME'] = 'matpat.tk'
-
-
 # root route of the website
 @app.route('/')
 def hello_world():
